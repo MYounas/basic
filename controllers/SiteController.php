@@ -48,6 +48,11 @@ class SiteController extends Controller
         ];
     }
 
+    public function actionOffline()
+    {
+        echo "We r of";
+    }
+
     public function actionIndex()
     {
         return $this->render('index');
