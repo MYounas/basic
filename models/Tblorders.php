@@ -39,6 +39,7 @@ class Tblorders extends \yii\db\ActiveRecord
             [['colOrder', 'Phone'], 'integer'],
             [['Status', 'Payment', 'Type'], 'string'],
             [['Created_Date', 'Updated_Date'], 'safe'],
+            ['colOrder','string','min'=>4,'max'=>4],
             [['First_Name', 'Last_Name', 'Email'], 'string', 'max' => 50],
         ];
     }

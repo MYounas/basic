@@ -33,6 +33,7 @@ class TblOrdersController extends Controller
      * Lists all tblOrders models.
      * @return mixed
      */
+
     public function actionIndex()
     {
         $searchModel = new tblOrdersSearch();
