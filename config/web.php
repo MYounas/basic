@@ -6,8 +6,6 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'defaultRoute'=>'tbl-orders/index',
-    // 'catchAll'=>['site/offline'],
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -40,18 +38,14 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
-        
+        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-            //if register goto url written against it
-                // 'register'=>'user/registration/register',
-                // '<controller>'=>'<controller>/index',
-                // '<controller>/<id:\d+>'=>'<controller>/view',
             ],
         ],
-        
+        */
     ],
     'params' => $params,
 ];
