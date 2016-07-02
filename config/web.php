@@ -8,14 +8,16 @@ $config = [
 'bootstrap' => ['log'],
 
 'components' => [
-'view' => [
-        'theme' => [
-        //theme integration helplink
-        //http://www.bsourcecode.com/yiiframework2/install-new-theme-in-yiiframework-2/
-            'pathMap' => ['@app/views' => '@app/themes/metro'],
-            'baseUrl' => '@web/../themes/metro',
-        ],
-],
+
+// 'view' => [
+//         'theme' => [
+//         //theme integration helplink
+//         //http://www.bsourcecode.com/yiiframework2/install-new-theme-in-yiiframework-2/
+//             'pathMap' => ['@app/views' => '@app/themes/material'],
+//             'baseUrl' => '@web/../themes/material',
+//         ],
+// ],
+
 'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
 'cookieValidationKey' => 'younasKey',
